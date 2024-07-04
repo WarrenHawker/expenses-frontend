@@ -22,8 +22,8 @@ function Grid({ expenses, removeExpense }) {
 
   return (
     <div className="expenses-grid">
-      {expenses.map((expense) => (
-        <div key={expense._id} className="expense-item">
+      {expenses.map((expense, index) => (
+        <div key={index} className="expense-item">
           <strong>Description:</strong> {expense.description}
           <br />
           <strong>Category:</strong> {expense.category}

@@ -1,0 +1,35 @@
+.expenses-container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.expenses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.expense-item {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #eaf7ef;
+  border: 1px solid #c8e1d9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.expense-item strong {
+  font-weight: bold;
+}
+
+.expense-item hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.expense-item button {
+  font-size: 10px;
+  letter-spacing: 2px;
+}

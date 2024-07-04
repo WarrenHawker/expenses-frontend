@@ -34,11 +34,10 @@ Below is an outline of the main folder and files within the project
 
 Follow the steps below to run the app locally:
 
-1. Run the command `git clone https://github.com/WarrenHawker/golden-feather-guest-calendar` to clone the repo.
-2. Open the project folder and run the command `cd client` to move to the client directory.
-3. Run the command `npm install` to install all dependencies
-4. Run the command `npm run dev` to start the development server on http://localhost:5173 in the web browser
+1. Run the command `git clone https://github.com/WarrenHawker/expenses-frontend` to clone the repo.
+2. Run the command `npm install` to install all dependencies
+3. Run the command `npm run dev` to start the development server on http://localhost:5173 in the web browser
 
 ## Build to production
 
-The app uses Typescript which needs to be compiled before being deployed. This is done through Vite. To create a production-ready set of Javascript and CSS files, run the `npm run build` command. This creates a `dist` directory containing all the Javascript, CSS and assets for the app. This can be deployed directly to the web server of your choice.
+To create a production-ready set of Javascript and CSS files, run the `npm run build` command. This creates a `dist` directory containing all the Javascript, CSS and assets for the app. This can be deployed directly to the web server of your choice.

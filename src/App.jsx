@@ -10,8 +10,6 @@ function App() {
     fetchExpenses();
   }, []);
 
-  console.log(expenses);
-
   const fetchExpenses = async () => {
     const res = await fetch(
       'https://expenses-api-production-7770.up.railway.app/api/v1/expense'

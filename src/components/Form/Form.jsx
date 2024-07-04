@@ -17,7 +17,7 @@ function Form({ setShowForm, addExpense }) {
     const formData = {
       description,
       category,
-      amount: amountSpent,
+      amountSpent,
       date,
     };
 

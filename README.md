@@ -41,3 +41,15 @@ Follow the steps below to run the app locally:
 ## Build to production
 
 To create a production-ready set of Javascript and CSS files, run the `npm run build` command. This creates a `dist` directory containing all the Javascript, CSS and assets for the app. This can be deployed directly to the web server of your choice.
+
+## ERRORS
+
+This app currently has the following errors:
+
+1. The expense cards in the grid are overflowing into each other (there should be a space inbetween each card).
+2. Deleting an expense removes it from the database but doesn't correctly update the expenses grid.
+3. Adding a new expense doesn't create the record in the database or update the expenses grid.
+4. When adding a new expense, if there is an error from the form submission it adds garbage data to the expenses array.
+5. There is nothing stopping the user from putting a negative number in the "amount" field.
+
+Documentation for the API can be found in the documentation.pdf file in the root of this project.
